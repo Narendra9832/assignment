@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>REGISTRATION</title>
+    <div class="header">
+        <h1>REGISTRATION</h1>
+
+    </div>
+    <style>
+        .header{
+            margin-left: 630px;
+            margin-top: 150px;
+            color:rgb(204, 247, 111);
+
+        }
+        body{
+          background-image:url(/Background.png);
+          background-repeat: no-repeat;
+          background-attachment: fixed;
+          background-size: cover;  
+        }
+
+        .form{
+            background-color: rgb(115, 111, 111);
+            width: 200px;
+            padding: 50px;
+            height: 270px;
+            margin-left: 600px;
+            margin-top: 30px;
+            border-style: dotted;
+            font-size: 30px;
+
+
+        }
+        .form input{
+            border-radius: 10px;
+            border-width: 5px;
+        }
+        .form select{
+            text-align: center;
+        }
+        .form button{
+            border-radius: 50px;
+            margin-top: 5px;
+            margin-left: 60px;
+            font-size: 15px;
+            color:black;
+            background-color: aqua;
+
+            
+        }
+    </style>
+
+</head>
+<body>
+    <div class="form">
+        <input type="text" id="Fname" placeholder="Enter The FirstName "><br>
+        <input type="text" id="Lname" placeholder="Enter The LastName"><br>
+        <input type="text" id="age" placeholder="Age"><br>
+        <input type="text" id="phno" placeholder="Mobile Number"><br>
+        <input type="text" id="email" placeholder="Enter mail id"><br>
+        <select name="gender" id="select">
+            <option value="male">MALE</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+        </select><br>
+
+        <button onclick="login"> <a href="#">LOGIN</a></button>
+    </div>
+    
+</body>
+</html>

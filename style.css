@@ -1,0 +1,109 @@
+*{
+font-style: italic;
+width: 100%;
+background-image: url('C:\Users\katti\Downloads\sunset-cricket-ground-9yo8w016faiow66m (1).jpg');
+background-repeat:no-repeat;
+background-attachment: fixed;
+background-size: cover;
+}
+.logo{
+    top: 40px;
+    margin-top: 50px;
+    width: 50%;
+}
+
+navbar{
+    float: right;
+    margin-left: 75%;
+    margin-right: -700px;
+    display: inline-block;
+    margin-top:-300px;
+
+}
+navbar ul li{
+    top: 20px;
+    line-height: 80px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 5px;
+    display: inline;
+    margin-right: 100px;
+}
+navbar ul li .a{
+    color:black;
+
+}
+body{
+    float: left;
+    top: 20px;
+    background-image: url(/background1.jpg);
+}
+.para{
+    font-size: 20px;
+    width: 50%  ;
+}
+.container{
+    padding: 2rem;
+    width: 600px;
+}
+.slider-wrapper{
+    position: relative;
+    margin:0 auto;
+    max-width: 48rem;
+}
+.slider{
+    display: flex;
+    aspect-ratio: 16/9;
+    overflow-x: auto;
+    scroll-snap-type:x mandatory;
+    scroll-behavior: smooth;
+    box-shadow: 0 1.5rem 3rem -0.75rem hsla(0, 0%, 0%, 0.25);
+    border-radius: 0.5rem;
+    animation: slide 10s infinite;
+}
+.slider img{
+    flex: 1 0 100%;
+    scroll-snap-align:start ;
+    object-fit: cover;
+}
+.sliding{
+    display: flex;
+    column-gap: 1rem;
+    position: absolute;
+    bottom: 1.25rem;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1;
+
+}
+.sliding a{
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 50%;
+    background-color:#ec0d0d;
+    opacity: 0.75;
+    transition:opacity ease 250ms;
+    scroll-behavior: smooth;
+}
+.sliding a:hover{
+    opacity: 1;
+}
+
+.login{
+    width: 50px;
+    text-align: center;
+    border-radius: 5px;
+}
+.login button{
+    background-color: red;
+    width: 250px;
+    border-radius: 5px;
+    text-align: center;
+    margin-top: 20px;
+    margin-left:500px;
+    font-size: 30px;
+    
+}
+.login button a{
+    background-color: red;
+}
